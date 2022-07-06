@@ -1,14 +1,9 @@
-package QuestıesPrincipal;
-//import java.util.*;
-//import java.lang.*;
+package QuestoesPrincipais;
 
-public class QuestıesPrincipal {
+public class Quest√µesPrincipal {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		EscolheQuestıes escolhe = new EscolheQuestıes();
-		
+	public static void main(String[] args) {		
+		EscolheQuest√µes escolhe = new EscolheQuest√µes();
 		escolhe.executa();
 	}
 
