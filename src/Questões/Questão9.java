@@ -1,21 +1,18 @@
 package Questões;
-import java.util.*;
-public class Questão9 {
-	String nome, sobreNome, texto;
+
+public class Questão9 extends AncestralQuestões{
+	String nome, sobreNome, texto;	
 	
-	Scanner leia = new Scanner(System.in);
-	
-	public void recebe() {
+	public void recebeValores() {
+		//pede o nome e depois pede o sobre nome
 		System.out.println("Digite o nome");
-		nome = leia.nextLine();
-		
+		nome = scanner.nextLine();	
 		System.out.println("Digite o sobrenome");
-		sobreNome = leia.nextLine();
+		sobreNome = scanner.nextLine();
 	}
 	
 	public void executa() {
-		recebe();
-		
+		recebeValores();
 		texto ="Nome Completo: " + nome + " " + sobreNome;
 		System.out.println(texto);
 	}
